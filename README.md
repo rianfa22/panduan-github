@@ -1,12 +1,38 @@
 # Panduan Penggunaan Git
 
-* [Mengunduh repository ke dalam komputer](http://https://github.com/datascienceid/README#mengunduh-repository)
+* [Mengunduh repository ke dalam komputer](https://github.com/datascienceid/README#mengunduh-repository)
 * [Memperbarui repository yang telah diunduh](https://github.com/datascienceid/README#memperbarui-repository)
 * [Mengunggah perubahan ke dalam repository](https://github.com/datascienceid/README#mengunggah-perubahan)
 * [Menghapus file](https://github.com/datascienceid/README#menghapus-file)
 * [Branching](https://github.com/datascienceid/README#branching)
 * [Perintah tambahan](https://github.com/datascienceid/README#perintah-tambahan)
 * [gitignore](https://github.com/datascienceid/README#gitignore)
+
+## Memulai Git
+Untuk menjadikan folder sebuah repository Git, pertama-tama Anda perlu menginstall Git pada komputer Anda. Jika Anda belum menginstall Git, Anda dapat mengunduhnya dari situs resmi Git di https://git-scm.com/downloads. Setelah menginstall Git, Anda dapat menjalankan perintah berikut dari command prompt atau terminal untuk menjadikan folder sebagai repository Git:
+
+Masuk ke dalam folder yang ingin Anda jadikan repository Git dengan menjalankan perintah
+`cd [nama folder]`
+
+Inisialisasi repository Git baru dengan menjalankan perintah
+`git init`
+Ini akan membuat folder ".git" di dalam folder yang Anda pilih, yang akan digunakan oleh Git untuk menyimpan informasi tentang perubahan yang Anda buat.
+
+Tambahkan file-file yang ada di dalam folder ke dalam index Git dengan menjalankan perintah
+`git add`
+Ini akan menambahkan semua file yang ada di dalam folder ke dalam index Git.
+
+Commit file-file yang telah Anda tambahkan ke dalam index Git dengan menjalankan perintah
+`git commit -m 'Initial commit'`
+Ini akan menandai perubahan yang Anda buat sebagai commit pertama.
+
+Sekarang folder yang Anda pilih telah menjadi repository Git yang valid, Anda dapat melanjutkan untuk mengatur remote repository, branch dll.
+
+Sebagai catatan, jika anda ingin menambahkan remote repository anda dapat menjalankan perintah seperti
+`git remote add origin [url repository anda]`
+atau jika anda ingin membuat branch baru anda dapat menjalankan
+`git branch [nama branch]`
+
 
 ## Mengunduh Repository
 
