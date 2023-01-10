@@ -1,12 +1,12 @@
 # Panduan Penggunaan Git
 
-* [Mengunduh repository ke dalam komputer](https://github.com/datascienceid/README#mengunduh-repository)
-* [Memperbarui repository yang telah diunduh](https://github.com/datascienceid/README#memperbarui-repository)
-* [Mengunggah perubahan ke dalam repository](https://github.com/datascienceid/README#mengunggah-perubahan)
-* [Menghapus file](https://github.com/datascienceid/README#menghapus-file)
-* [Branching](https://github.com/datascienceid/README#branching)
-* [Perintah tambahan](https://github.com/datascienceid/README#perintah-tambahan)
-* [gitignore](https://github.com/datascienceid/README#gitignore)
+* [Mengunduh repository ke dalam komputer](#mengunduh-repository)
+* [Memperbarui repository yang telah diunduh](#memperbarui-repository)
+* [Mengunggah perubahan ke dalam repository](#mengunggah-perubahan)
+* [Menghapus file](#menghapus-file)
+* [Branching](#branching)
+* [Perintah tambahan](#perintah-tambahan)
+* [gitignore](#gitignore)
 
 ## Memulai Git
 Untuk menjadikan folder sebuah repository Git, pertama-tama Anda perlu menginstall Git pada komputer Anda. Jika Anda belum menginstall Git, Anda dapat mengunduhnya dari situs resmi Git di https://git-scm.com/downloads. Setelah menginstall Git, Anda dapat menjalankan perintah berikut dari command prompt atau terminal untuk menjadikan folder sebagai repository Git:
